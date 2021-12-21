@@ -29,7 +29,7 @@ const Main = ({selectedPunk, punkListData}) => {
                 <div className="owner-container flex items-center">
                     <a href={"https://testnets.opensea.io/"+activePunk.owner.address}><img src={activePunk.owner.profile_img_url} alt="owner-avatar" className="owner-avatar mr-4 bg-white rounded-full h-14 w-14" /></a>
                     <div className="owner-details">
-                        <div>{activePunk.owner.address}</div>
+                        <div className="owner-token">{activePunk.owner.address}</div>
                         <div className="text-[#00bcd4]"><a href="https://github.com/ins4w/cryptopunks-clone">@angelmejia</a></div>
                     </div>
                 </div>

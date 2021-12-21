@@ -9,7 +9,7 @@ const PunkList = ({punkListData, setSelectedPunk}) => {
             {punkListData.map(punk => (
                 <div key={punk.token_id} onClick={() => setSelectedPunk(punk.token_id)}>
                     {(punkListData.length - 1) > punk.token_id && (
-                        <div className="mr-[20px]">
+                        <div className="remain-card mr-[20px]">
                             <CollectionCard 
                                 id={punk.token_id}
                                 name={punk.name}
