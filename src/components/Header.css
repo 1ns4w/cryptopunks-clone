@@ -98,10 +98,11 @@
     }
     .searchInput {
         flex: 1;
-        min-width: 300px;
-        margin: 9px;
+        min-width: 280px;
+        padding: 10px;
     }
     .loginButton button {
         width: 88px;
+        height: 18px
     }
   }
